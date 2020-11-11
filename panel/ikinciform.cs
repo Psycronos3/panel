@@ -16,5 +16,10 @@ namespace panel
         {
             InitializeComponent();
         }
+
+        private void asfasf_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

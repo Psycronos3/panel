@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.asfasf = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -42,12 +43,23 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "MASALAR TEST EKRANI";
             // 
+            // asfasf
+            // 
+            this.asfasf.Location = new System.Drawing.Point(250, 74);
+            this.asfasf.Name = "asfasf";
+            this.asfasf.Size = new System.Drawing.Size(219, 83);
+            this.asfasf.TabIndex = 2;
+            this.asfasf.Text = "asfasfa";
+            this.asfasf.UseVisualStyleBackColor = true;
+            this.asfasf.Click += new System.EventHandler(this.asfasf_Click);
+            // 
             // ikinciform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.asfasf);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ikinciform";
@@ -60,5 +72,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button asfasf;
     }
 }
